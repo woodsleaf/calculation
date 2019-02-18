@@ -1,7 +1,10 @@
 <?php
+require '../vendor/autoload.php';
+use app\Functions as Fu;
+//echo 'searchback+';
 
 if (isset($_POST['search'])) {
-    include 'function.php';
+    //include 'function.php';
     header("Content-type: text/html; charset=UTF-8");
     $search = $_POST['search'];
     $search = addslashes($search);
@@ -37,7 +40,7 @@ if (isset($_POST['search'])) {
                 */
                 foreach ($row as $key=>$value) {
                     //if ($key !== 'id') {
-                        echo eform('input', $key, 'type="text" value="'. $value. '"');// pattern="[-а-яА-Я\w\s\.,]{1,64}"
+                        echo Fu::eform('input', $key, 'type="text" value="'. $value. '"');// pattern="[-а-яА-Я\w\s\.,]{1,64}"
                     //}
                 }
                 //echo '</span><br>';

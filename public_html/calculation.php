@@ -1,4 +1,6 @@
 <?php
+require '../vendor/autoload.php';
+use app\Functions as Fu;
 
 session_start();
 /*if ($_SESSION['authorized']<>1) {
@@ -9,7 +11,7 @@ session_start();
 require_once 'tpl/begin.php';
 require_once 'tpl/css.html';
 require_once 'menu.php';
-require_once 'function.php';
+//require_once 'function.php';
 //Читаем данные из файла
 $file = file_get_contents('data/chizcher.json', 'data/');
 //$file = file_get_contents('data/chiz.json', 'data/');
@@ -38,7 +40,7 @@ foreach ($items as $ikey) {
     $ikey->in //мера измерения
     */
     if ($ikey->parent) {
-        $parent = getParent($ikey->parent, $parents);
+        $parent = Fu::getParent($ikey->parent, $parents);
         $k = $ikey->count / $parent->weightpack;
         $kprice = $k * $parent->price;
 
@@ -74,9 +76,9 @@ echo '
 foreach ($iprep as $i) {
     echo '
 <div class="rc">
-<span>', $i[0], '</span> <span>', okrug($i[1], 3), '</span> <span>', okrug($i[2]),
+<span>', $i[0], '</span> <span>', Fu::okrug($i[1], 3), '</span> <span>', Fu::okrug($i[2]),
     '</span> <span>',
-    okrug($i[2]/$tprice*100, 1), '</span>
+    Fu::okrug($i[2]/$tprice*100, 1), '</span>
 </div>';
 }
 echo '<hr>';
@@ -87,12 +89,12 @@ echo '<span>Себестоимость,руб.</span>', '<span>Брутто,кг
 echo '</div>';
 
 echo '<div class="rca">';
-echo '<span>', okrug($tprice), '</span>', '<span>', $tweight, '</span>',
+echo '<span>', Fu::okrug($tprice), '</span>', '<span>', $tweight, '</span>',
 '<span>', $obj[0]->weight, '</span>', '<span>', $obj[0]->porciy, '</span>',
 '<span>', $obj[0]->weight/$obj[0]->porciy, '</span>';
 echo '</div>';
 
-echo 'Предполагаемая цена продажи: ', okrug($tprice*3), 'руб.';
+echo 'Предполагаемая цена продажи: ', Fu::okrug($tprice*3), 'руб.';
 
 require_once 'tpl/end.php';
 ?>
