@@ -6,8 +6,8 @@ session_start();
     exit;
 }*/
 
-require_once 'begin.php';
-require_once 'css.html';
+require_once 'tpl/begin.php';
+require_once 'tpl/css.html';
 require_once 'menu.php';
 require_once 'function.php';
 //Читаем данные из файла
@@ -94,5 +94,5 @@ echo '</div>';
 
 echo 'Предполагаемая цена продажи: ', okrug($tprice*3), 'руб.';
 
-require_once 'end.php';
+require_once 'tpl/end.php';
 ?>
