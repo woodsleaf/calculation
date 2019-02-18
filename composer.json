@@ -1,0 +1,19 @@
+{
+    "name": "woodsleaf/calculation",
+    "description": "calculation",
+    "authors": [
+        {
+            "name": "woodsleaf",
+            "email": "woodsleaf@gmail.com"
+        }
+    ],
+    "config": {
+        "optimize-autoloader": true
+    },
+    "autoload": {
+        "psr-4": {
+        "App\\": "public_html"
+        }
+    },
+    "require": {}
+}

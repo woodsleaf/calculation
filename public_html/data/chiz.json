@@ -1,0 +1,94 @@
+{
+    "ingridients":[
+        {
+            "name": "Печенье",
+            "count": 0.160,
+            "price": 64.00,
+            "weightpack": "0.320",
+            "in": "kg",
+            "note": ""
+        },
+        {
+            "name": "Яйцо",
+            "count": 4,
+            "price": 168.00,
+            "weightpack": "30",
+            "in": "pack",
+            "note": "0.050"
+        },
+        {
+            "name": "Сахар",
+            "count": 0.160,
+            "price": 30.00,
+            "weightpack": "1",
+            "in": "kg",
+            "note": ""
+        },
+        {
+            "name": "Сахар",
+            "count": 0.100,
+            "price": 30.00,
+            "weightpack": "1",
+            "in": "kg",
+            "note": ""
+        },
+        {
+            "name": "Творог мягкий",
+            "count": 0.750,
+            "price": 55.00,
+            "weightpack": "0.200",
+            "in": "kg",
+            "note": ""
+        },
+        {
+            "name": "Сливки",
+            "count": 0.060,
+            "price": 60.00,
+            "weightpack": "0.200",
+            "in": "kg",
+            "note": ""
+        },
+        {
+            "name": "Малина",
+            "count": 0.1,
+            "price": 349.00,
+            "weightpack": "1",
+            "in": "kg",
+            "note": ""
+        },
+        {
+            "name": "Крахмал",
+            "count": 0.015,
+            "price": 56,
+            "weightpack": "0.400",
+            "in": "kg",
+            "note": ""
+        },
+        {
+            "name": "Какао",
+            "count": 0.075,
+            "price": 75,
+            "weightpack": "0.150",
+            "in": "kg",
+            "note": ""
+        },
+        {
+            "name": "Масло сливочное 82.5%",
+            "count": 0.080,
+            "price": 129,
+            "weightpack": "0.180",
+            "in": "kg",
+            "note": ""
+        }
+    ],
+    "ready":[
+        {
+            "name": "Чизкейк",
+            "weight": "1.5",
+            "porciy": "12",
+            "timewarm": "150",
+            "timework": "",
+            "timewatch": ""
+        }
+    ]
+}

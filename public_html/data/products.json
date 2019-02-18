@@ -1,0 +1,95 @@
+{
+    "products": [
+        {
+            "name": "Крем-Чиз",
+            "price": 207.00,
+            "weightpack": "0.400",
+            "in": "kg",
+            "note": ""
+        },
+        {
+            "name": "Кефир",
+            "price": "52.00",
+            "weightpack": "1",
+            "in": "kg",
+            "note": ""
+        },
+        {
+            "name": "Яйцо",
+            "price": 168.00,
+            "weightpack": "30",
+            "in": "pack",
+            "note": "0.050"
+        },
+        {
+            "name": "Сахар",
+            "price": 40.00,
+            "weightpack": "1",
+            "in": "kg",
+            "note": ""
+        },
+        {
+            "name": "Творог обезжиренный Valio",
+            "price": 60.00,
+            "weightpack": "0.180",
+            "in": "kg",
+            "note": ""
+        },
+        {
+            "name": "Творог обезжиренный 'Каждый день'",
+            "price": 45.00,
+            "weightpack": "0.160",
+            "in": "kg",
+            "note": ""
+        },
+        {
+            "name": "Творог обезжиренный 'Danone'",
+            "price": 45.00,
+            "weightpack": "0.160",
+            "in": "kg",
+            "note": ""
+        },
+        {
+            "name": "Миндаль",
+            "price": 50.00,
+            "weightpack": "0.085",
+            "in": "kg",
+            "note": ""
+        },
+        {
+            "name": "Черника",
+            "price": 144.00,
+            "weightpack": "0.4",
+            "in": "kg",
+            "note": ""
+        },
+        {
+            "name": "Мука",
+            "price": 70.00,
+            "weightpack": "2.00",
+            "in": "kg",
+            "note": ""
+        },
+        {
+            "name": "Разрыхлитель",
+            "price": 5,
+            "weightpack": "0.010",
+            "in": "kg",
+            "note": ""
+        },
+        {
+            "name": "Лимон",
+            "price": 150.00,
+            "weightpack": "1",
+            "in": "kg",
+            "note": ""
+        },
+        {
+            "name": "Масло сливочное 82.5%",
+            "price": 129,
+            "weightpack": "0.180",
+            "in": "kg",
+            "note": ""
+        }
+    ]
+}
