@@ -43,3 +43,17 @@ if ($db = new SQLite3("calc.sqlite", SQLITE3_OPEN_READWRITE)) {
 } else {
     die("Невозможно обратиться к базе данных! ". $sqliteerror);
 }
+
+/*
+function dbprodstoradd(
+    $name, $price, $weightpack,
+    $in, $note='', $timebuy='',
+    $Shelflife='', $storage_temperature=''
+) {
+
+}
+
+if (isset($_POST['addprodstor'])) {
+    dbprodstoradd();
+}
+*/

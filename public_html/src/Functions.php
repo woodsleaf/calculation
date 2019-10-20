@@ -1,4 +1,16 @@
 <?php
+/**
+ * All Function included in this file
+ * 
+ * __construct()
+ * test()
+ * getParent($namevalue, $parents)
+ * okrug($flo, $des='2')
+ * eform($type, $name, $attr = '')
+ * todoList($todo)
+ * htmlCont($title = '')
+ * 
+ */
 namespace app;
 //echo 'Functions+';
 /*
@@ -113,4 +125,5 @@ class Functions
         return '</body>
     </html>';
     }
+  
 }
