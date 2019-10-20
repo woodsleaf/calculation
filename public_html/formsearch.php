@@ -14,4 +14,4 @@ echo '<form class="form" method="post" name="form" onsubmit="return false;">';
             Fu::eform('input', 'search', 'type="text"').
          '</p>';
 echo '</form>';
-echo '<div id="resSearch">Начните вводить запрос, '*' покажет все продукты.</div>';
+echo '<div id="resSearch">Начните вводить запрос, * покажет все продукты.</div>';
