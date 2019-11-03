@@ -11,6 +11,25 @@ session_start();
 require_once 'tpl/begin.php';
 require_once 'tpl/css.html';
 require_once 'menu.php';
+$productsfile = file_get_contents('data/products.json', 'data/');
+$productsobj = json_decode($productsfile);
+$products = $productsobj->products;
+/**
+ *
+ */
+function prodlist($products)
+{
+    echo '<br><br>' ,'Список из data/products.json';
+    echo '<br>' ,'name ' ,'price ' ,'weightpack ' ,'in ' ,'note ';
+    foreach ($products as $product) {
+        echo '<br>' ,$product->name
+            ,' ' ,$product->price
+            ,' ' ,$product->weightpack
+            ,' ' ,$product->in
+            ,' ' ,$product->note;
+        echo '<hr>';
+    }
+};
 //require_once 'function.php';
 //Читаем данные из файла
 $file = file_get_contents('data/chizcher.json', 'data/');
@@ -95,6 +114,8 @@ echo '<span>', Fu::okrug($tprice), '</span>', '<span>', $tweight, '</span>',
 echo '</div>';
 
 echo 'Предполагаемая цена продажи: ', Fu::okrug($tprice*3), 'руб.';
+
+prodlist($products);
 
 require_once 'tpl/end.php';
 ?>
