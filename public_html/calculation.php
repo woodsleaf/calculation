@@ -21,14 +21,15 @@ function prodlist($products)
 {
     echo '<br><br>' ,'Список из data/products.json';
     echo '<br>' ,'name ' ,'price ' ,'weightpack ' ,'in ' ,'note ';
+    echo '<hr>';
     foreach ($products as $product) {
-        echo '<br>' ,$product->name
+        echo $product->name
             ,' ' ,$product->price
             ,' ' ,$product->weightpack
             ,' ' ,$product->in
-            ,' ' ,$product->note;
-        echo '<hr>';
+            ,' ' ,$product->note ,'<br>';
     }
+    echo '<hr>';
 };
 //require_once 'function.php';
 //Читаем данные из файла
