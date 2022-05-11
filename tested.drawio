@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-11T22:38:01.565Z" agent="5.0 (X11)" etag="vtbpw2pUvGxYfIJHFArs" version="18.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-11T22:41:56.668Z" agent="5.0 (X11)" etag="jYlqdTR2eHKWbKqjRGyp" version="18.0.3" type="github">
   <diagram id="Scefa5hXLGWyBplBoRfy" name="Page-1">
     <mxGraphModel dx="1422" dy="714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -34,6 +34,9 @@
         </mxCell>
         <mxCell id="9uJ1F7l3VDjGo9X1WdDs-7" value="1" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="9uJ1F7l3VDjGo9X1WdDs-6">
           <mxGeometry x="-1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9uJ1F7l3VDjGo9X1WdDs-11" value="&lt;h1 style=&quot;&quot; class=&quot;title style-scope ytd-video-primary-info-renderer&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;Has One Through и Has Many Through&lt;/font&gt;&lt;/h1&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="90" y="50" width="670" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
